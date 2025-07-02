@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(0deg, #0d3926 0%, #111233 100%);
     min-height: 100vh;
     color: #333;
 }
@@ -98,7 +98,7 @@ header p {
     color: #333;
     margin-bottom: 5px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background 0.18s;
     padding: 5px;
     border-radius: 4px;
 }
@@ -117,7 +117,7 @@ header p {
     font-weight: 500;
     color: #555;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background 0.18s;
     padding: 5px;
     border-radius: 4px;
 }
@@ -145,7 +145,7 @@ header p {
 .email-body p {
     margin-bottom: 15px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background 0.18s;
     padding: 5px;
     border-radius: 4px;
 }
@@ -619,4 +619,92 @@ a, a:visited {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* Botão de informações fixo */
+.info-btn {
+  position: static;
+  display: inline-block;
+  background: none;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 0 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  box-shadow: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  opacity: 1;
+  text-decoration: underline;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.info-btn:hover {
+  color: #ffc107;
+  background: none;
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .info-btn {
+    font-size: 1.1rem;
+    padding: 0 6px;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    display: inline-block;
+    text-decoration: underline;
+  }
+  .info-btn::before {
+    content: '';
+    display: none;
+  }
+}
+
+/* Modal de instruções */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px 28px 24px 28px;
+  max-width: 400px;
+  width: 90vw;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.13);
+  position: relative;
+  font-size: 1.08rem;
+}
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+.modal-content ul {
+  margin: 0 0 12px 0;
+  padding-left: 20px;
+}
+.modal-content p {
+  margin: 0;
+  color: #555;
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.modal-close:hover {
+  color: #d32f2f;
 } 

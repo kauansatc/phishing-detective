@@ -1,6 +1,6 @@
 // Carregar emails de emails.json
 let EMAILS = [];
-const EMAILS_PER_GAME = 2;
+const EMAILS_PER_GAME = 10;
 
 function loadEmailsAndStart() {
   fetch('emails.json')
@@ -174,7 +174,7 @@ function handleFinish() {
   document.getElementById('correct-count').textContent = gameState.answers.filter(a => a.correct).length;
   document.getElementById('wrong-count').textContent = gameState.answers.filter(a => !a.correct && a.choice !== 'skip').length;
   document.getElementById('skipped-count').textContent = gameState.skipped;  
-  document.getElementById('total-count').textContent = EMAILS_PER_GAME;
+  document.getElementById('final-total-count').textContent = EMAILS_PER_GAME;
  
   renderReview();
 }
@@ -259,6 +259,22 @@ window.onload = () => {
   document.getElementById('restart-btn').onclick = restartWithAnimation;
   document.getElementById('restart-results-btn').onclick = restartWithAnimation;
   loadEmailsAndStart();
+
+  // Modal de instruções
+  const infoBtn = document.getElementById('info-btn');
+  const modal = document.getElementById('howto-modal');
+  const closeBtn = document.getElementById('close-howto');
+  infoBtn.onclick = () => {
+    modal.style.display = 'flex';
+  };
+  closeBtn.onclick = () => {
+    modal.style.display = 'none';
+  };
+  modal.onclick = (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  };
 };
 
 // Adicionar CSS para .phishing-highlight

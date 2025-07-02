@@ -12,6 +12,7 @@
         <header>
             <h1>🕵️ Phishing Detective</h1>
             <p>Identifique emails de phishing e marque os elementos suspeitos</p>
+            <div class="info-btn" id="info-btn" title="Como jogar">ℹ️ Como jogar</div>
         </header>
 
         <div class="game-container" id="game-container">
@@ -34,7 +35,7 @@
         <div class="results-container" id="results-container" style="display: none;">
             <h2>Resultados da Partida</h2>
             <div class="final-score">
-                <h3>Sua Pontuação: <span id="final-score">0</span>/<span id="total-count">0</span></h3>
+                <h3>Sua Pontuação: <span id="final-score">0</span>/<span id="final-total-count">0</span></h3>
                 <div class="score-breakdown">
                     <div class="score-item">
                         <span>Acertos:</span>
@@ -59,6 +60,21 @@
             </div>
 
             <button class="btn btn-restart" id="restart-results-btn">🔄 Nova Partida</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="howto-modal" style="display:none;">
+        <div class="modal-content">
+            <button class="modal-close" id="close-howto">&times;</button>
+            <h2>Como jogar</h2>
+            <ul>
+                <li>Leia atentamente o email exibido.</li>
+                <li>Se achar que é <strong>legítimo</strong>, clique em <b>✅ Legítimo</b>.</li>
+                <li>Se achar que é <strong>phishing</strong>, <b>primeiro clique nos elementos suspeitos</b> (remetente, assunto ou partes do corpo do email) e <b>depois clique em 🚨 Phishing</b>.</li>
+                <li>Se não souber, clique em <b>⏭️ Pular</b>.</li>
+                <li>Ao final, veja seu desempenho e revise os emails.</li>
+            </ul>
+            <p>Dica: clique nos elementos do email para marcá-los como suspeitos <b>antes de responder</b>!</p>
         </div>
     </div>
 
