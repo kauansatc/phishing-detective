@@ -1,0 +1,773 @@
+[
+  {
+    "id": 1,
+    "type": "phishing",
+    "from": { "text": "Banco do Brasil <comunicado@bancodobrasil.com.br>", "isPhishing": false },
+    "subject": { "text": "Atualização Essencial: Validação de Segurança da Sua Conta BB", "isPhishing": false },
+    "date": "15/04/2024 10:00",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "Informamos que, em virtude de recentes atualizações em nossos protocolos de segurança e para nos adequarmos às novas normativas do Banco Central, todas as contas correntes e poupanças do Banco do Brasil requerem uma **validação de segurança obrigatória**. Esta medida visa aprimorar a proteção de seus dados e transações, garantindo um ambiente digital ainda mais seguro para todos os nossos clientes. Nossa equipe de compliance identificou que sua conta ainda não passou por essa etapa crítica.", "isPhishing": false },
+      { "text": "Para evitar a suspensão temporária de acessos a serviços como Pix, transferências DOC/TED e pagamentos agendados, solicitamos que complete a validação o mais breve possível. O processo é simples e rápido, levando apenas alguns minutos.", "isPhishing": false },
+      { "text": "Acesse nosso portal seguro para iniciar a validação: https://seguranca.bancodobrasil-online.com.br/validacao", "isPhishing": true },
+      { "text": "Reforçamos que a não conformidade com este procedimento pode resultar em limitações operacionais ou no bloqueio preventivo da sua conta, conforme previsto em nossos Termos e Condições de Uso. Agradecemos sua colaboração e compreensão na manutenção da integridade de suas operações financeiras.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança e Suporte ao Cliente Banco do Brasil", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio do link \"bancodobrasil-online.com.br\" usa hifenização e um TLD comum para simular o domínio oficial, mas não é o mesmo. O corpo do e-mail é mais longo e detalhado, com justificativas aparentemente válidas e ameaça sutil de interrupção de serviço."
+  },
+  {
+    "id": 2,
+    "type": "legit",
+    "from": { "text": "Banco do Brasil <notificacoes@bb.com.br>", "isPhishing": false },
+    "subject": { "text": "Aviso: Nova Política de Segurança em Vigor", "isPhishing": false },
+    "date": "15/04/2024 10:05",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "O Banco do Brasil está constantemente aprimorando suas medidas de segurança. A partir de hoje, novas políticas de proteção de dados e transações estão em vigor. Recomendamos que acesse o aplicativo oficial do Banco do Brasil ou nosso site (www.bb.com.br) para conhecer as novidades e garantir que suas informações estejam sempre protegidas.", "isPhishing": false },
+      { "text": "Lembramos que o Banco do Brasil nunca solicita seus dados sensíveis, senhas ou tokens por e-mail ou SMS. Desconfie de qualquer comunicação que exija cliques para \"validação\" ou \"atualização\" fora dos nossos canais oficiais.", "isPhishing": false },
+      { "text": "Sua confiança é fundamental para nós. Para qualquer dúvida, entre em contato com nossa central de atendimento.", "isPhishing": false },
+      { "text": "Atenciosamente, Banco do Brasil", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 3,
+    "type": "phishing",
+    "from": { "text": "Netflix <suporte@mail.netflix.com>", "isPhishing": false },
+    "subject": { "text": "Problemas na Assinatura Premium - Ação Urgente para Evitar Interrupção do Serviço", "isPhishing": false },
+    "date": "12/04/2024 18:30",
+    "body": [
+      { "text": "Olá Ana Silva,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que houve uma inconsistência significativa no processamento do seu último pagamento referente à sua assinatura Netflix Premium. Nossos sistemas detectaram um erro na transação, o que, infelizmente, pode levar à interrupção do seu acesso a todo o nosso catálogo de filmes e séries, incluindo seus títulos favoritos e o progresso em suas listas.", "isPhishing": false },
+      { "text": "Para evitar qualquer tipo de bloqueio ou suspensão da sua conta, é imprescindível que você acesse a Central de Assinantes e regularize suas informações de pagamento o mais rápido possível. Estamos priorizando casos como o seu para garantir que não haja perda de acesso.", "isPhishing": false },
+      { "text": "Por favor, clique no link a seguir para ser redirecionado(a) ao nosso portal de atualização e confirme seus dados: https://assistencia.netflix.com.br-pagamento.info/atualizar", "isPhishing": true },
+      { "text": "Agradecemos sua imediata atenção e agilidade para resolvermos esta questão. Sua experiência na Netflix é muito importante para nós e queremos garantir que ela continue ininterrupta.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Faturamento Netflix", "isPhishing": false }
+    ],
+    "technique": "Link falso: O link \"netflix.com.br-pagamento.info\" usa \"netflix.com.br\" como parte de um subdomínio para enganar, mas o domínio principal é \".info\", que não é da Netflix. O texto é detalhado e usa a ameaça de interrupção de serviço e a perda de progresso para criar urgência e medo."
+  },
+  {
+    "id": 4,
+    "type": "legit",
+    "from": { "text": "Netflix <noreply@netflix.com>", "isPhishing": false },
+    "subject": { "text": "Lembrete de Vencimento: Sua Fatura Netflix", "isPhishing": false },
+    "date": "12/04/2024 18:35",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Sua fatura da Netflix com vencimento em 20/07/2024 está disponível. Para continuar aproveitando seu acesso sem interrupções, certifique-se de que seus dados de pagamento estejam atualizados e que haja saldo suficiente.", "isPhishing": false },
+      { "text": "Você pode verificar e gerenciar suas informações diretamente no aplicativo ou site oficial da Netflix, acessando sua conta na área \"Detalhes da Conta\".", "isPhishing": false },
+      { "text": "Em caso de dúvidas, nossa central de ajuda está à disposição.", "isPhishing": false },
+      { "text": "Obrigado por assinar!", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Netflix", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 5,
+    "type": "phishing",
+    "from": { "text": "Spotify <no-reply@spotify-billing.com>", "isPhishing": true },
+    "subject": { "text": "Notificação Crítica: Problema com seu Pagamento Spotify Premium - Ação Requerida", "isPhishing": false },
+    "date": "10/04/2024 14:00",
+    "body": [
+      { "text": "Prezado(a) assinante Spotify Premium,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que o pagamento referente à renovação da sua assinatura Premium não pôde ser processado com sucesso. Isso pode ter ocorrido devido a um erro no cartão, expiração ou problemas com a autenticação de segurança.", "isPhishing": false },
+      { "text": "Para evitar a interrupção imediata do seu serviço e garantir que você continue desfrutando de músicas sem anúncios, downloads e reprodução offline, é crucial que você revise e atualize suas informações de pagamento. Entendemos a importância da sua experiência musical e queremos garantir que ela permaneça ininterrupta.", "isPhishing": false },
+      { "text": "Clique no botão abaixo para acessar o formulário de atualização de faturamento em nosso ambiente seguro. Por favor, complete as informações o mais rápido possível.", "isPhishing": false },
+      { "text": "[Botão: Atualizar Informações de Faturamento]", "isPhishing": false },
+      { "text": "Lembramos que, se a atualização não for realizada nas próximas 24 horas, sua conta Premium será revertida para a versão gratuita, com limitação de funcionalidades. Contamos com sua compreensão.", "isPhishing": false },
+      { "text": "Atenciosamente, Departamento de Faturamento Spotify", "isPhishing": false }
+    ],
+    "technique": "Remetente falso: O domínio \"spotify-billing.com\" tenta se passar por um serviço de cobrança, mas não é o domínio oficial da Spotify. O e-mail é longo e detalhado, justificando a ação e ameaçando a perda de recursos premium."
+  },
+  {
+    "id": 6,
+    "type": "legit",
+    "from": { "text": "Spotify <noreply@spotify.com>", "isPhishing": false },
+    "subject": { "text": "Seu Recibo Spotify Premium - Abril", "isPhishing": false },
+    "date": "10/04/2024 14:05",
+    "body": [
+      { "text": "Olá!", "isPhishing": false },
+      { "text": "Este é o recibo do seu pagamento recente do Spotify Premium, referente ao mês de abril. Agradecemos imensamente por continuar sendo um assinante e por nos permitir fazer parte da sua trilha sonora diária.", "isPhishing": false },
+      { "text": "Você pode ver todos os detalhes da sua fatura, gerenciar sua assinatura ou atualizar seus dados de pagamento a qualquer momento, acessando sua conta diretamente no aplicativo Spotify ou através do nosso site oficial (www.spotify.com).", "isPhishing": false },
+      { "text": "Continue aproveitando suas playlists favoritas e descubra novas músicas!", "isPhishing": false },
+      { "text": "Obrigado por nos escolher!", "isPhishing": false },
+      { "text": "Equipe Spotify", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 7,
+    "type": "phishing",
+    "from": { "text": "Mercado Livre <alertas@mercadolivre.com.br>", "isPhishing": false },
+    "subject": { "text": "Aviso de Segurança Urgente: Atividade Não Autorizada Detectada em Sua Conta", "isPhishing": false },
+    "date": "09/04/2024 11:10",
+    "body": [
+      { "text": "Prezado(a) usuário(a),", "isPhishing": false },
+      { "text": "Nossos sistemas de segurança avançados detectaram recentemente um **acesso não autorizado** à sua conta do Mercado Livre, originado de um dispositivo e localização incomuns. Esta atividade levanta preocupações significativas sobre a integridade de sua conta e a segurança de suas informações pessoais e financeiras.", "isPhishing": false },
+      { "text": "Para sua imediata proteção e para evitar quaisquer transações fraudulentas ou acesso indevido aos seus dados, bloqueamos temporariamente algumas funcionalidades críticas de sua conta. É essencial que você revise esta atividade e confirme sua identidade para restabelecer o acesso total e garantir a segurança de seus fundos e informações.", "isPhishing": false },
+      { "text": "Por favor, acesse o link seguro para verificar e desbloquear sua conta: https://centraldeseguranca.mercadolivre-br.com/verificar", "isPhishing": true },
+      { "text": "Recomendamos que esta ação seja tomada prontamente. Caso não reconheça esta atividade e não tome as devidas providências, o bloqueio pode se tornar permanente. Sua segurança é nossa principal prioridade no Mercado Livre.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança e Prevenção de Fraudes Mercado Livre", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"mercadolivre-br.com\" é uma variação sutil do domínio oficial do Mercado Livre, usando hifenização. O corpo do e-mail é detalhado, com um forte apelo à segurança e à urgência devido a uma \"atividade não autorizada\"."
+  },
+  {
+    "id": 8,
+    "type": "legit",
+    "from": { "text": "Mercado Livre <seguranca@mercadolivre.com.br>", "isPhishing": false },
+    "subject": { "text": "Notificação de Login em Novo Dispositivo - Mercado Livre", "isPhishing": false },
+    "date": "09/04/2024 11:15",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Este e-mail é para confirmar que houve um login recente em sua conta do Mercado Livre de um novo dispositivo ou navegador. Se você realizou este acesso, pode desconsiderar esta mensagem.", "isPhishing": false },
+      { "text": "Se você não reconhece esta atividade, por favor, acesse imediatamente o aplicativo oficial do Mercado Livre ou nosso site (www.mercadolivre.com.br) para alterar sua senha e revisar os dispositivos conectados em sua conta. Não clique em links em e-mails para fazer isso.", "isPhishing": false },
+      { "text": "Mantenha sua conta segura e atualizada!", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Mercado Livre", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 9,
+    "type": "phishing",
+    "from": { "text": "Receita Federal do Brasil <noreply@gov.br>", "isPhishing": false },
+    "subject": { "text": "URGENTE: Notificação de Regularização de CPF Pendente - Prazo Final!", "isPhishing": false },
+    "date": "08/04/2024 09:00",
+    "body": [
+      { "text": "Prezado(a) contribuinte,", "isPhishing": false },
+      { "text": "Informamos que, após a análise de seus dados fiscais, identificamos uma **pendência crítica em seu Cadastro de Pessoa Física (CPF)** que necessita de imediata regularização. Esta pendência impede o acesso a diversos serviços governamentais e pode gerar restrições futuras em suas operações financeiras, incluindo bloqueio de conta bancária e impossibilidade de emissão de passaporte, entre outros.", "isPhishing": false },
+      { "text": "Para evitar maiores transtornos e garantir a plenitude de seus direitos civis, é fundamental que você regularize sua situação o mais rápido possível. Nossos sistemas indicam que esta é a última notificação antes da aplicação de penalidades severas.", "isPhishing": false },
+      { "text": "Para iniciar o processo de regularização e consultar os detalhes da pendência, acesse o portal de serviços dedicado: https://servicos.receita-federal.br/regularizar-cpf", "isPhishing": true },
+      { "text": "A Receita Federal do Brasil reitera seu compromisso com a transparência e a facilitação dos serviços ao contribuinte. Não hesite em buscar informações complementares em nossos canais oficiais após a regularização.", "isPhishing": false },
+      { "text": "Atenciosamente, Receita Federal do Brasil", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"receita-federal.br\" não é um domínio oficial do governo (.gov.br). Ele tenta simular o nome da Receita Federal usando um TLD brasileiro. O e-mail é longo e usa gatilhos de medo e urgência com ameaças de restrições em serviços essenciais."
+  },
+  {
+    "id": 10,
+    "type": "legit",
+    "from": { "text": "Receita Federal <comunicado@receita.economia.gov.br>", "isPhishing": false },
+    "subject": { "text": "Consulta de Status: Sua Situação Cadastral no CPF", "isPhishing": false },
+    "date": "08/04/2024 09:05",
+    "body": [
+      { "text": "Prezado(a) contribuinte,", "isPhishing": false },
+      { "text": "Você solicitou uma consulta sobre a sua situação cadastral no CPF. Esta é uma confirmação de que sua solicitação foi processada. Para consultar o status atual de seu CPF, acesse o portal oficial da Receita Federal (www.gov.br/receitafederal) ou o aplicativo \"Meu CPF\" da Receita Federal.", "isPhishing": false },
+      { "text": "Lembre-se: A Receita Federal não envia links diretos para regularização de CPF por e-mail e não solicita dados pessoais ou bancários fora de seus portais seguros e oficiais.", "isPhishing": false },
+      { "text": "Atenciosamente, Receita Federal", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 11,
+    "type": "phishing",
+    "from": { "text": "Itaú Unibanco <no-reply@itau.com.br>", "isPhishing": false },
+    "subject": { "text": "Comunicado Urgente de Segurança: Atividade Suspeita em Sua Conta", "isPhishing": false },
+    "date": "07/04/2024 16:00",
+    "body": [
+      { "text": "Prezado(a) cliente Itaú,", "isPhishing": false },
+      { "text": "Detectamos recentemente uma **atividade de alto risco** em sua conta Itaú, que não corresponde ao seu perfil de uso habitual. Esta atividade, se não confirmada, pode indicar uma tentativa de acesso não autorizado, colocando em risco a segurança de seus recursos financeiros. Como medida de proteção imediata, algumas funcionalidades da sua conta foram temporariamente limitadas.", "isPhishing": false },
+      { "text": "Para sua total segurança e para que você possa retomar a plena utilização de todos os serviços, é imprescindível que você acesse nosso canal de validação de segurança e confirme a legitimidade desta atividade. Este processo é rápido e essencial para desativar o bloqueio preventivo e evitar maiores transtornos.", "isPhishing": false },
+      { "text": "Acesse o portal de segurança dedicado para validar seus dados: https://verificacao-itau.com/seguranca-conta", "isPhishing": true },
+      { "text": "Caso esta etapa não seja concluída em até 6 horas, o bloqueio se tornará permanente, exigindo um processo de recuperação de conta mais complexo. Sua agilidade em atender a esta solicitação é vital para a proteção de seus ativos.", "isPhishing": false },
+      { "text": "Atenciosamente, Departamento de Prevenção a Fraudes Itaú Unibanco", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"verificacao-itau.com\" usa \"itau\" no nome e um TLD comum, mas não é o domínio oficial do Itaú. O e-mail é longo, detalhado e aplica forte pressão psicológica com a ameaça de bloqueio permanente e a necessidade de ação rápida para evitar a perda de acesso."
+  },
+  {
+    "id": 12,
+    "type": "legit",
+    "from": { "text": "Itaú <alertas@itau.com.br>", "isPhishing": false },
+    "subject": { "text": "Alerta de Transação Suspeita - Itaú", "isPhishing": false },
+    "date": "07/04/2024 16:05",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "Notamos uma transação recente em sua conta Itaú que pode não ter sido iniciada por você. Para sua segurança, gostaríamos de alertá-lo(a) sobre a movimentação de R$ 1.850,00 para um pagamento via Pix às 15:58 de hoje.", "isPhishing": false },
+      { "text": "Se você não reconhece esta transação, entre em contato imediatamente com nossa central de atendimento ou acesse o aplicativo Itaú para bloquear seu cartão ou conta. Lembramos que o Itaú nunca solicita senhas ou dados de segurança completos por e-mail.", "isPhishing": false },
+      { "text": "Sua segurança é nossa prioridade.", "isPhishing": false },
+      { "text": "Atenciosamente, Itaú Unibanco", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 13,
+    "type": "phishing",
+    "from": { "text": "Amazon.com.br <pedidos@amazon.com.br>", "isPhishing": false },
+    "subject": { "text": "Urgente: Problema com o Endereço de Entrega do seu Pedido #102-3456789-0123456", "isPhishing": false },
+    "date": "06/04/2024 12:00",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que o seu recente pedido na Amazon.com.br, número #102-3456789-0123456, está enfrentando um pequeno, mas crítico, problema relacionado ao endereço de entrega. Nossos sistemas identificaram uma inconsistência que pode impedir a entrega bem-sucedida do seu pacote. Entendemos a ansiedade de receber suas compras e queremos evitar qualquer atraso.", "isPhishing": false },
+      { "text": "Para garantir que seu pacote chegue sem atrasos e no local correto, é fundamental que você revise e confirme seu endereço de entrega em nosso portal de verificação. A ausência desta confirmação pode resultar no retorno do pacote ao nosso centro de distribuição ou em atrasos significativos na entrega.", "isPhishing": false },
+      { "text": "Por favor, clique aqui para acessar o formulário de confirmação de endereço: https://verificar.amazon-entrega.com/confirmar_endereco", "isPhishing": true },
+      { "text": "Agradecemos sua rápida atenção a este assunto. Sua satisfação é nossa prioridade, e estamos empenhados em garantir que sua experiência de compra seja a melhor possível.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Logística e Atendimento ao Cliente Amazon.com.br", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"amazon-entrega.com\" é uma variação do nome da Amazon usando um termo comum (\"entrega\") e um TLD comum. O e-mail é detalhado, criando uma situação de problema na entrega que exige ação imediata para evitar atrasos ou retorno do produto, explorando a ansiedade do consumidor."
+  },
+  {
+    "id": 14,
+    "type": "legit",
+    "from": { "text": "Amazon.com.br <auto-confirmacao@amazon.com.br>", "isPhishing": false },
+    "subject": { "text": "Seu pedido da Amazon.com.br foi enviado! (#102-3456789-0123456)", "isPhishing": false },
+    "date": "06/04/2024 12:05",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Boas notícias! Seu pedido #102-3456789-0123456 foi enviado e está a caminho. A previsão de entrega é de 2 a 3 dias úteis.", "isPhishing": false },
+      { "text": "Você pode acompanhar seu pedido, alterar o método de pagamento ou cancelar itens (se aplicável) diretamente no site ou aplicativo da Amazon.com.br, na seção \"Meus Pedidos\".", "isPhishing": false },
+      { "text": "Agradecemos por sua compra e esperamos que você aproveite seus novos itens!", "isPhishing": false },
+      { "text": "Equipe Amazon", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 15,
+    "type": "phishing",
+    "from": { "text": "Google <no-reply@accounts.google.com>", "isPhishing": false },
+    "subject": { "text": "Alerta de Segurança Crítico: Atividade de Login Incomum Detectada em Sua Conta Google", "isPhishing": false },
+    "date": "05/04/2024 10:30",
+    "body": [
+      { "text": "Prezado(a) usuário(a),", "isPhishing": false },
+      { "text": "Nossa equipe de segurança detectou recentemente uma **atividade de login incomum e potencialmente perigosa** em sua conta Google joao.silva@gmail.com, originada de um dispositivo e localização que não correspondem ao seu padrão de uso. Para sua proteção, esta atividade foi sinalizada como de alto risco, e algumas funcionalidades de sua conta podem ter sido temporariamente suspensas.", "isPhishing": false },
+      { "text": "Para evitar qualquer acesso não autorizado aos seus dados pessoais, e-mails, documentos e outros serviços associados à sua conta Google, é crucial que você revise esta atividade e valide sua identidade imediatamente. A não verificação pode levar ao bloqueio permanente de sua conta por motivos de segurança.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar nosso portal de segurança e siga as instruções para revalidar suas credenciais: https://myaccount.google-security.net/verify", "isPhishing": true },
+      { "text": "Sua ação é indispensável para garantir a integridade de sua conta. Se você não reconhece esta atividade, é ainda mais urgente que tome as medidas necessárias.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança e Proteção de Contas Google", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"google-security.net\" tenta simular um serviço de segurança do Google com hifenização e um TLD comum. O e-mail é longo e detalhado, com forte apelo ao medo (\"atividade incomum e perigosa\", \"bloqueio permanente\") e urgência."
+  },
+  {
+    "id": 16,
+    "type": "legit",
+    "from": { "text": "Google <security-noreply@accounts.google.com>", "isPhishing": false },
+    "subject": { "text": "Alerta de segurança: atividade de login em sua Conta do Google", "isPhishing": false },
+    "date": "05/04/2024 10:35",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Detectamos um login recente na sua Conta do Google em Rio de Janeiro, Brasil (05/04/2024 10:32 BRT) usando um smartphone Android.", "isPhishing": false },
+      { "text": "Se foi você quem fez login, pode desconsiderar esta mensagem. Se não foi você, recomendamos fortemente que revise sua segurança imediatamente. Você pode fazer isso acessando sua conta em myaccount.google.com/security-checkup. Lembre-se de nunca compartilhar sua senha.", "isPhishing": false },
+      { "text": "Atenciosamente, Google", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 17,
+    "type": "phishing",
+    "from": { "text": "WhatsApp <notificacao@whatsapp.com>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente: Verificação de Conta Obrigatória para Evitar Bloqueio", "isPhishing": false },
+    "date": "04/04/2024 16:40",
+    "body": [
+      { "text": "Prezado(a) usuário(a) do WhatsApp,", "isPhishing": false },
+      { "text": "Em continuidade aos nossos esforços para manter a segurança e a integridade da plataforma, informamos que todas as contas do WhatsApp precisam passar por uma **verificação de segurança atualizada**. Esta medida é essencial para combater atividades suspeitas, spam e garantir que apenas usuários legítimos mantenham acesso aos nossos serviços de mensagens.", "isPhishing": false },
+      { "text": "Sua conta foi sinalizada como pendente de verificação, e, de acordo com nossos Termos de Serviço, será temporariamente suspensa em 24 horas se o processo não for concluído. Isso pode resultar na perda do seu histórico de conversas e acesso aos seus contatos.", "isPhishing": false },
+      { "text": "Acesse o link abaixo para iniciar o processo de verificação de conta seguro e rápido: https://validacao.whatsapp-support.link/verificar", "isPhishing": true },
+      { "text": "Agradecemos a sua imediata atenção a este comunicado. Sua colaboração é fundamental para continuarmos oferecendo um ambiente de comunicação seguro e confiável para milhões de usuários em todo o mundo.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Segurança WhatsApp", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"whatsapp-support.link\" usa \"whatsapp\" e \"support\" com um TLD \".link\" para parecer legítimo, mas não é um domínio oficial do WhatsApp. O e-mail é longo, detalhado e usa a ameaça de suspensão e perda de histórico para criar urgência e medo."
+  },
+  {
+    "id": 18,
+    "type": "legit",
+    "from": { "text": "WhatsApp <suporte@support.whatsapp.com>", "isPhishing": false },
+    "subject": { "text": "Notificação: Confirmação de Alteração de Número de Telefone - WhatsApp", "isPhishing": false },
+    "date": "04/04/2024 16:45",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Este e-mail é para confirmar que seu número de telefone associado à sua conta WhatsApp foi alterado recentemente. Se você realizou esta alteração, pode desconsiderar esta mensagem.", "isPhishing": false },
+      { "text": "Se você não reconhece esta alteração ou acredita que sua conta pode ter sido acessada por terceiros, por favor, abra seu aplicativo WhatsApp e revise as informações da sua conta. Você também pode acessar a seção de segurança para encerrar outras sessões e redefinir sua senha, se necessário.", "isPhishing": false },
+      { "text": "Sua privacidade e segurança são importantes para nós.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe WhatsApp", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 19,
+    "type": "phishing",
+    "from": { "text": "Facebook <security@facebookmail.com>", "isPhishing": false },
+    "subject": { "text": "Sua Conta Facebook Foi Sinalizada Por Violação das Políticas da Comunidade - Ação Imediata!", "isPhishing": false },
+    "date": "03/04/2024 14:00",
+    "body": [
+      { "text": "Prezado(a) usuário(a),", "isPhishing": false },
+      { "text": "Nossa equipe de moderação identificou que sua conta do Facebook carlos.mendes.perfil foi sinalizada por **supostas violações graves** de nossas Políticas da Comunidade. Isso inclui, mas não se limita a, conteúdo impróprio, spam excessivo ou atividades que comprometem a segurança de outros usuários. Esta notificação é um aviso crítico antes de medidas mais drásticas.", "isPhishing": false },
+      { "text": "Para evitar a suspensão permanente e a desativação irreversível de sua conta, que resultaria na perda de suas fotos, publicações, amigos e mensagens, é obrigatório que você revise e apresente uma apelação contra essa decisão. Entendemos que podem ocorrer equívocos, e esta é sua oportunidade de esclarecer a situação.", "isPhishing": false },
+      { "text": "Por favor, acesse o portal de revisão de contas para enviar sua contestação: https://contestar.facebook-review.org/apelacao", "isPhishing": true },
+      { "text": "Você tem um prazo de **apenas 24 horas** a partir do recebimento deste e-mail para tomar a ação necessária. Após este período, se não houver contestação, sua conta será permanentemente desativada. Agradecemos sua atenção e colaboração para manter o Facebook um ambiente seguro e acolhedor para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Qualidade da Comunidade Facebook", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"facebook-review.org\" usa hifenização e um TLD comum para simular um domínio do Facebook. O e-mail é longo, detalhado, usa linguagem formal, a ameaça de suspensão permanente e perda de dados, e um prazo curto para criar urgência e medo."
+  },
+  {
+    "id": 20,
+    "type": "legit",
+    "from": { "text": "Facebook <notification@facebookmail.com>", "isPhishing": false },
+    "subject": { "text": "Alerta de Login Não Reconhecido na Sua Conta do Facebook", "isPhishing": false },
+    "date": "03/04/2024 14:05",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Registramos um login recente na sua conta do Facebook de um dispositivo ou navegador que não reconhecemos. A atividade ocorreu em São Paulo, Brasil usando um navegador Chrome em 03/04/2024 às 14:02 BRT.", "isPhishing": false },
+      { "text": "Se este acesso foi feito por você, pode desconsiderar esta mensagem. Se não foi você, recomendamos que acesse imediatamente as configurações de segurança da sua conta em facebook.com/security para alterar sua senha e encerrar sessões desconhecidas. Sua privacidade é muito importante para nós.", "isPhishing": false },
+      { "text": "Mantenha sua conta segura!", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Facebook", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 21,
+    "type": "phishing",
+    "from": { "text": "Instagram <support@mail.instagram.com>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente: Sua Conta Instagram Será Desativada por Inatividade Prolongada", "isPhishing": false },
+    "date": "02/04/2024 11:30",
+    "body": [
+      { "text": "Prezado(a) membro da comunidade Instagram Juliana.Dias.Fotografia,", "isPhishing": false },
+      { "text": "Nossa política de uso do Instagram prevê a desativação permanente de contas que permanecem inativas por um período superior a 180 dias. Sua conta foi identificada neste grupo e está programada para ser **desativada em breve** devido à inatividade prolongada. Esta medida é essencial para otimizar nossos recursos e manter a base de usuários ativa e engajada.", "isPhishing": false },
+      { "text": "Para evitar a perda irreversível de todo o seu conteúdo (fotos, vídeos, seguidores, mensagens diretas e histórico de atividades), é fundamental que você reconfirme sua presença na plataforma. Entendemos o valor sentimental e profissional que sua conta pode ter para você.", "isPhishing": false },
+      { "text": "Clique no link abaixo para acessar nosso portal de reativação e siga as instruções para manter sua conta ativa: https://reativar.instagram-app.info/confirmar", "isPhishing": true },
+      { "text": "Esta é sua última oportunidade para tomar as ações necessárias e preservar sua conta. Após o prazo estabelecido, a desativação será final. Agradecemos sua colaboração e esperamos vê-lo(a) ativo(a) novamente em nossa comunidade.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Gerenciamento de Contas Instagram", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"instagram-app.info\" usa \"instagram\" e \"app\" com um TLD \".info\" para parecer legítimo, mas não é um domínio oficial do Instagram. O e-mail é longo, detalhado e aplica pressão psicológica usando a ameaça de desativação e perda de dados, além de um tom formal e \"oficial\"."
+  },
+  {
+    "id": 22,
+    "type": "legit",
+    "from": { "text": "Instagram <emails@mail.instagram.com>", "isPhishing": false },
+    "subject": { "text": "Nova tentativa de login no Instagram - Verifique sua conta", "isPhishing": false },
+    "date": "02/04/2024 11:35",
+    "body": [
+      { "text": "Olá João Santos,", "isPhishing": false },
+      { "text": "Houve uma tentativa de login na sua conta do Instagram em Belo Horizonte, MG por um dispositivo iPhone em 02/04/2024 às 11:32 BRT.", "isPhishing": false },
+      { "text": "Se este acesso foi realizado por você, nenhuma ação é necessária. No entanto, se você não reconhece esta atividade, por favor, acesse imediatamente o aplicativo Instagram ou o site oficial para alterar sua senha e revisar suas sessões ativas. Sua segurança é nossa prioridade.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Instagram", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 23,
+    "type": "phishing",
+    "from": { "text": "Bradesco <servicos@bradesco.com.br>", "isPhishing": false },
+    "subject": { "text": "Importante: Recadastramento de Segurança Bradesco - Ação Obrigatória!", "isPhishing": false },
+    "date": "30/03/2024 09:40",
+    "body": [
+      { "text": "Prezado(a) cliente Bradesco,", "isPhishing": false },
+      { "text": "Em conformidade com as novas regulamentações do setor bancário e visando aprimorar a segurança de suas transações financeiras, o Bradesco está implementando um **recadastramento de segurança obrigatório** para todos os seus clientes. Esta medida é fundamental para proteger sua conta contra fraudes e garantir a conformidade com as exigências de privacidade e proteção de dados.", "isPhishing": false },
+      { "text": "Sua conta foi identificada como uma das que necessitam deste recadastramento imediato. A não conclusão deste procedimento dentro do prazo estabelecido poderá resultar em limitações significativas no uso de seus serviços bancários, incluindo acesso ao Internet Banking, aplicativo e transações via caixas eletrônicos.", "isPhishing": false },
+      { "text": "Para prosseguir com o recadastramento de forma segura e rápida, por favor, clique no link abaixo. Você será direcionado(a) ao nosso ambiente exclusivo de validação de dados.", "isPhishing": false },
+      { "text": "Acesse: https://recadastramento-bradesco.com.br/validacao", "isPhishing": true },
+      { "text": "Sua cooperação é vital para mantermos a excelência e a segurança de nossos serviços. Agradecemos sua compreensão e agilidade.", "isPhishing": false },
+      { "text": "Atenciosamente, Bradesco - Equipe de Segurança Digital", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"recadastramento-bradesco.com.br\" usa hifenização e o nome do banco para enganar. O e-mail é longo e formal, usando a autoridade das \"novas regulamentações\" e a ameaça de \"limitações significativas\" para forçar a ação."
+  },
+  {
+    "id": 24,
+    "type": "legit",
+    "from": { "text": "Bradesco <avisos@bradesco.com.br>", "isPhishing": false },
+    "subject": { "text": "Sua Segurança é Nossa Prioridade: Dicas Importantes do Bradesco", "isPhishing": false },
+    "date": "31/03/2024 09:30",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "No Bradesco, sua segurança é a nossa maior preocupação. Estamos constantemente aprimorando nossos sistemas para proteger seus dados e transações. Queremos reforçar algumas dicas importantes para sua segurança digital:", "isPhishing": false },
+      { "text": "- Nunca compartilhe suas senhas ou dados de segurança por e-mail, SMS ou telefone.", "isPhishing": false },
+      { "text": "- Desconfie de mensagens que solicitam cliques em links para \"atualizar\" ou \"validar\" informações.", "isPhishing": false },
+      { "text": "- Sempre acesse sua conta Bradesco através do nosso aplicativo oficial ou digitando o endereço www.bradesco.com.br diretamente no seu navegador.", "isPhishing": false },
+      { "text": "Em caso de qualquer dúvida sobre a autenticidade de um contato, não hesite em procurar nossos canais oficiais de atendimento.", "isPhishing": false },
+      { "text": "Atenciosamente, Bradesco", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 25,
+    "type": "phishing",
+    "from": { "text": "Santander Brasil <comunicado@santander.com.br>", "isPhishing": false },
+    "subject": { "text": "Excelente Notícia: Aumento Pré-Aprovado do Seu Limite de Crédito Santander!", "isPhishing": false },
+    "date": "30/03/2024 13:15",
+    "body": [
+      { "text": "Prezado(a) cliente Santander,", "isPhishing": false },
+      { "text": "Temos o prazer de informar que, com base no seu histórico de bom relacionamento e utilização de nossos serviços, seu cartão de crédito Santander foi selecionado para um **aumento de limite pré-aprovado**! Esta é uma excelente oportunidade para você ter ainda mais flexibilidade e poder de compra no seu dia a dia.", "isPhishing": false },
+      { "text": "Para ativar este novo limite e começar a usufruir de todos os benefícios adicionais, é necessário que você acesse nosso portal de ativação e confirme a sua aceitação. O processo é simples e rápido, garantindo que o novo limite esteja disponível em sua conta o mais breve possível.", "isPhishing": false },
+      { "text": "Clique no link abaixo para ativar seu novo limite pré-aprovado: https://ativar.santander-beneficios.net/limite-adicional", "isPhishing": true },
+      { "text": "Esta oferta é válida por tempo limitado, portanto, não perca a chance de potencializar seu poder de compra. Agradecemos por ser nosso cliente e pela confiança em nossos serviços.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Relacionamento com Clientes Santander", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"santander-beneficios.net\" usa \"santander\" e \"beneficios\" com um TLD comum para criar um senso de legitimidade. A técnica de engenharia social é o **gatilho de ganho** (aumento de limite pré-aprovado), que gera curiosidade e desejo, combinada com urgência (\"válida por tempo limitado\")."
+  },
+  {
+    "id": 26,
+    "type": "legit",
+    "from": { "text": "Santander <comunicados@santander.com.br>", "isPhishing": false },
+    "subject": { "text": "Notificação sobre Seu Limite de Crédito Santander", "isPhishing": false },
+    "date": "30/03/2024 13:20",
+    "body": [
+      { "text": "Prezado(a) cliente,", "isPhishing": false },
+      { "text": "Informamos que seu limite de crédito no cartão Santander foi revisado e pode ter sido ajustado. Você pode consultar seu limite atualizado a qualquer momento diretamente pelo aplicativo Santander ou acessando o Internet Banking em nosso site oficial (www.santander.com.br).", "isPhishing": false },
+      { "text": "Lembre-se de que o Santander nunca solicita informações de segurança ou dados pessoais para \"ativar\" limites via e-mail. Para sua segurança, sempre utilize os canais oficiais para gerenciar sua conta e cartões.", "isPhishing": false },
+      { "text": "Atenciosamente, Banco Santander Brasil", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 27,
+    "type": "phishing",
+    "from": { "text": "Nubank <comunicado@nubank.com>", "isPhishing": false },
+    "subject": { "text": "Atenção: Cartão Bloqueado por Motivos de Segurança - Ação Necessária", "isPhishing": false },
+    "date": "29/03/2024 17:45",
+    "body": [
+      { "text": "Olá Mariana Rocha,", "isPhishing": false },
+      { "text": "Gostaríamos de alertá-lo(a) sobre uma recente atividade em sua conta Nubank que acionou nossos sistemas de segurança. Detectamos uma tentativa de transação que foge do seu padrão de uso, resultando no **bloqueio preventivo do seu cartão** para sua proteção. Entendemos o transtorno que isso pode causar e agimos rapidamente para garantir a segurança de seus recursos.", "isPhishing": false },
+      { "text": "Para restabelecer o acesso ao seu cartão e garantir que você possa continuar utilizando-o normalmente, é crucial que você revise esta atividade e valide sua identidade em nosso ambiente seguro. O processo é rápido e essencial para a sua tranquilidade.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar o portal de desbloqueio e siga as instruções: https://desbloquear.nubank-seguro.com/ativacao", "isPhishing": true },
+      { "text": "Caso a validação não seja concluída nas próximas horas, o bloqueio pode se tornar permanente, e será necessário solicitar um novo cartão, o que pode levar alguns dias. Sua atenção imediata é apreciada.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança Nubank", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"nubank-seguro.com\" usa hifenização e um termo de segurança para simular um domínio do Nubank. O e-mail é longo, detalhado e aplica pressão psicológica com a ameaça de bloqueio permanente e a necessidade de solicitar um novo cartão."
+  },
+  {
+    "id": 28,
+    "type": "legit",
+    "from": { "text": "Nubank <comunicado@nubank.com>", "isPhishing": false },
+    "subject": { "text": "Cartão bloqueado por segurança - Notificação", "isPhishing": false },
+    "date": "29/03/2024 17:45",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Confirmamos que seu cartão Nubank foi bloqueado por segurança. Isso pode ter ocorrido devido a uma solicitação sua, tentativa de transação suspeita ou detecção de atividade incomum.", "isPhishing": false },
+      { "text": "Para entender o motivo do bloqueio e como proceder para desbloqueá-lo ou solicitar um novo, acesse o aplicativo Nubank. Lá você encontrará todas as informações e poderá resolver a situação de forma segura e rápida.", "isPhishing": false },
+      { "text": "Lembramos: nunca solicitamos dados pessoais ou de segurança por e-mail para desbloqueio de cartões.", "isPhishing": false },
+      { "text": "Equipe Nubank", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 29,
+    "type": "phishing",
+    "from": { "text": "Uber <noreply@uber.com>", "isPhishing": false },
+    "subject": { "text": "Aviso de Segurança: Sua Conta Uber Foi Suspensa Temporariamente", "isPhishing": false },
+    "date": "28/03/2024 12:30",
+    "body": [
+      { "text": "Prezado(a) usuário(a) Uber Pedro Almeida,", "isPhishing": false },
+      { "text": "Identificamos uma série de atividades incomuns em sua conta Uber que sugerem uma possível violação de nossos Termos de Serviço ou acesso não autorizado. Para proteger seus dados e garantir a segurança de todos os usuários, sua conta foi **suspensa temporariamente**.", "isPhishing": false },
+      { "text": "Esta medida preventiva visa assegurar que sua conta esteja segura e que quaisquer irregularidades sejam investigadas. Para restabelecer o acesso completo à sua conta e retomar suas viagens e entregas, é necessário que você verifique sua identidade e revise as atividades sinalizadas.", "isPhishing": false },
+      { "text": "Por favor, acesse o Centro de Verificação Uber para reativar sua conta: https://verificacao.uber-security.com/reativar", "isPhishing": true },
+      { "text": "O processo é rápido e essencial para evitar que a suspensão se torne permanente. Agradecemos sua compreensão e colaboração para mantermos a comunidade Uber segura e confiável para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Segurança Uber", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"uber-security.com\" usa hifenização e um termo de segurança para simular um domínio do Uber. O e-mail é longo e detalhado, com um forte apelo à segurança e à ameaça de suspensão permanente para forçar a ação, mantendo um tom profissional."
+  },
+  {
+    "id": 30,
+    "type": "legit",
+    "from": { "text": "Uber <noreply@uber.com>", "isPhishing": false },
+    "subject": { "text": "Sua conta Uber foi suspensa - Notificação", "isPhishing": false },
+    "date": "28/03/2024 12:30",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Este e-mail é para informar que sua conta Uber foi suspensa por violação dos nossos Termos de Serviço ou por atividade incomum. Entendemos que esta notícia pode ser inesperada.", "isPhishing": false },
+      { "text": "Para mais informações sobre o motivo da suspensão e como proceder para uma possível reativação, por favor, entre em contato com nossa equipe de suporte diretamente pelo aplicativo Uber ou acesse a Central de Ajuda em nosso site oficial (help.uber.com).", "isPhishing": false },
+      { "text": "Agradecemos sua compreensão.", "isPhishing": false },
+      { "text": "Equipe Uber", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 31,
+    "type": "phishing",
+    "from": { "text": "iFood <pedidos@ifood.com.br>", "isPhishing": false },
+    "subject": { "text": "URGENTE: Problema com seu Último Pedido iFood #28374 - Reembolso Pendente", "isPhishing": false },
+    "date": "27/03/2024 19:20",
+    "body": [
+      { "text": "Olá Fernanda Costa,", "isPhishing": false },
+      { "text": "Lamentamos informar que seu pedido iFood #28374, realizado em 27/03/2024, foi cancelado devido a um **problema inesperado no processamento do pagamento** ou na disponibilidade do restaurante. Entendemos a sua frustração e pedimos desculpas por qualquer inconveniente causado.", "isPhishing": false },
+      { "text": "Para garantir que você receba o reembolso integral referente a este pedido sem atrasos, é crucial que você acesse nosso portal de estorno e preencha algumas informações necessárias para que possamos processar o crédito em sua conta bancária. Nosso objetivo é que você tenha seu dinheiro de volta o mais rápido possível.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para ser direcionado(a) ao formulário seguro de reembolso:", "isPhishing": false },
+      { "text": "Reembolso: https://reembolso.ifood-seguro.online/processar-estorno", "isPhishing": true },
+      { "text": "A não conclusão deste processo pode atrasar significativamente o seu reembolso. Agradecemos sua pronta atenção para resolvermos esta situação e esperamos vê-lo(a) novamente em breve para uma melhor experiência com o iFood.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Reembolsos iFood", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"ifood-seguro.online\" usa hifenização e um termo de segurança para simular um domínio do iFood. O e-mail é longo e detalhado, apelando para a frustração do cancelamento de um pedido e a necessidade de \"garantir\" o reembolso imediato, criando urgência."
+  },
+  {
+    "id": 32,
+    "type": "legit",
+    "from": { "text": "iFood <pedidos@ifood.com.br>", "isPhishing": false },
+    "subject": { "text": "Seu pedido foi cancelado - #987654", "isPhishing": false },
+    "date": "27/03/2024 19:20",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Lamentamos informar que seu pedido #987654 foi cancelado devido a um problema no restaurante parceiro.", "isPhishing": false },
+      { "text": "Não se preocupe, o valor referente ao seu pedido será reembolsado automaticamente na forma original de pagamento em até 3 dias úteis. Você pode verificar o status do reembolso diretamente no seu aplicativo iFood na seção \"Meus Pedidos\".", "isPhishing": false },
+      { "text": "Pedimos desculpas pelo inconveniente e esperamos poder atendê-lo(a) melhor em breve.", "isPhishing": false },
+      { "text": "Equipe iFood", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 33,
+    "type": "phishing",
+    "from": { "text": "LinkedIn <noreply@linkedin.com>", "isPhishing": false },
+    "subject": { "text": "Você Recebeu uma Nova Mensagem Privada de Sofia Costa - Gerente de Contratação", "isPhishing": false },
+    "date": "26/03/2024 10:15",
+    "body": [
+      { "text": "Olá Gabriel Pires,", "isPhishing": false },
+      { "text": "Temos o prazer de informar que um profissional de renome, Sofia Costa da Empresa Inovatech, enviou uma mensagem privada para você no LinkedIn. Aparentemente, eles estão impressionados com seu perfil e experiência e desejam discutir uma **oportunidade de carreira empolgante** que se alinha perfeitamente com suas qualificações.", "isPhishing": false },
+      { "text": "Para manter a confidencialidade e garantir que você visualize esta mensagem crucial sem demora, é necessário acessar o link exclusivo abaixo. Esta é uma oportunidade única para o seu desenvolvimento profissional.", "isPhishing": false },
+      { "text": "Acesse sua Caixa de Entrada de Mensagens: https://mensagens.linkedin-oportunidades.com/ver-agora", "isPhishing": true },
+      { "text": "Recomendamos que você responda prontamente para não perder essa chance. Agradecemos por ser parte da nossa comunidade profissional e por construir conexões que impulsionam carreiras.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe LinkedIn Carreira e Networking", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"linkedin-oportunidades.com\" usa hifenização e um termo que gera curiosidade (\"oportunidades\") para parecer legítimo. A engenharia social explora a vaidade e a curiosidade sobre uma oportunidade de carreira, usando nomes falsos de \"recrutadores de prestígio\" e a urgência de não \"perder a chance\"."
+  },
+  {
+    "id": 34,
+    "type": "legit",
+    "from": { "text": "LinkedIn <invitations@linkedin.com>", "isPhishing": false },
+    "subject": { "text": "Você tem um novo convite de conexão no LinkedIn!", "isPhishing": false },
+    "date": "26/03/2024 10:15",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Mariana Santos gostaria de se conectar com você no LinkedIn.", "isPhishing": false },
+      { "text": "Acesse seu perfil do LinkedIn para ver o convite e aceitá-lo, ou para explorar novas oportunidades de carreira.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe LinkedIn", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 35,
+    "type": "phishing",
+    "from": { "text": "PayPal <service@paypal.com>", "isPhishing": false },
+    "subject": { "text": "Revisão Urgente: Atividade Não Autorizada Detectada em Sua Conta PayPal", "isPhishing": false },
+    "date": "25/03/2024 14:40",
+    "body": [
+      { "text": "Prezado(a) cliente PayPal,", "isPhishing": false },
+      { "text": "Nossa equipe de monitoramento de segurança identificou uma **atividade incomum e potencialmente não autorizada** em sua conta PayPal. Uma transação de alto valor, R$ 789,50 para Comércio Online XPTO, foi iniciada e está atualmente pendente de sua revisão. Esta medida é preventiva para proteger seus fundos contra fraudes.", "isPhishing": false },
+      { "text": "Para evitar que esta transação suspeita seja concluída e para garantir a integridade de sua conta, é imprescindível que você acesse nosso Centro de Resolução de Segurança e confirme a legitimidade da operação. Sua rápida resposta nos permitirá agir para proteger seus interesses financeiros.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar nosso Centro de Resolução e siga as instruções: https://central-resolucao.paypal.com-seguro.site/confirmar", "isPhishing": true },
+      { "text": "A não verificação em até 12 horas resultará na consideração da transação como legítima e poderá levar a uma revisão mais profunda ou limitações em sua conta. Agradecemos sua colaboração em manter o PayPal um ambiente seguro para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança e Suporte ao Cliente PayPal", "isPhishing": false }
+    ],
+    "technique": "Link falso: O link \"paypal.com-seguro.site\" usa \"paypal.com\" como parte de um subdomínio, mas o domínio principal é \".site\", que não é da PayPal. O e-mail é longo, detalhado e aplica forte pressão psicológica com a ameaça de transação fraudulenta, bloqueio de conta e a necessidade de ação imediata."
+  },
+  {
+    "id": 36,
+    "type": "legit",
+    "from": { "text": "PayPal <noreply@paypal.com>", "isPhishing": false },
+    "subject": { "text": "Notificação de Recebimento de Pagamento - PayPal", "isPhishing": false },
+    "date": "25/03/2024 14:40",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Informamos que você recebeu um pagamento de Clara Diniz no valor de R$ 150,00 em sua conta PayPal. O status da transação é Concluída.", "isPhishing": false },
+      { "text": "O valor já está disponível em seu saldo do PayPal e pode ser utilizado para compras online ou transferido para sua conta bancária. Você pode visualizar todos os detalhes desta transação e gerenciar seus fundos acessando sua conta em paypal.com.br ou pelo aplicativo.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe PayPal", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 37,
+    "type": "phishing",
+    "from": { "text": "Microsoft Account <account-security@microsoft.com>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente de Segurança: Sua Conta Microsoft foi Comprometida - Ação Imediata!", "isPhishing": false },
+    "date": "24/03/2024 11:25",
+    "body": [
+      { "text": "Prezado(a) usuário(a),", "isPhishing": false },
+      { "text": "Nossa equipe de monitoramento detectou uma atividade de login altamente suspeita e não autorizada em sua conta Microsoft maria.fernanda@outlook.com em Brasília, DF. Esta atividade representa um risco significativo à segurança de seus dados pessoais, e-mails, arquivos na nuvem e outros serviços associados à sua conta.", "isPhishing": false },
+      { "text": "Para sua proteção e para evitar o acesso indevido a suas informações, sua conta foi temporariamente bloqueada. É crucial que você aja imediatamente para revalidar sua identidade e proteger sua conta contra novas tentativas de acesso.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar nosso portal de verificação de segurança e seguir as instruções para remover o bloqueio: https://login.microsoft-account.net/security-check", "isPhishing": true },
+      { "text": "A não conclusão desta verificação em até 24 horas pode resultar na desativação permanente de sua conta por motivos de segurança. Agradecemos sua pronta resposta e colaboração para mantermos o ambiente Microsoft seguro para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança de Contas Microsoft", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"microsoft-account.net\" usa hifenização e um TLD comum para simular um domínio da Microsoft. O e-mail é longo e detalhado, com um tom alarmista sobre a \"conta comprometida\" e a ameaça de \"desativação permanente\" para criar urgência e medo."
+  },
+  {
+    "id": 38,
+    "type": "legit",
+    "from": { "text": "Microsoft <account-security-noreply@microsoft.com>", "isPhishing": false },
+    "subject": { "text": "Atividade de login em sua conta Microsoft", "isPhishing": false },
+    "date": "24/03/2024 11:30",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Notamos um login recente na sua conta Microsoft em São Paulo, SP (24/03/2024 11:28 BRT) usando um navegador Edge.", "isPhishing": false },
+      { "text": "Se foi você quem fez login, pode desconsiderar esta mensagem. Se não foi você, recomendamos que revise a atividade. Para isso, acesse account.microsoft.com/security ou o aplicativo Microsoft Authenticator para gerenciar a segurança da sua conta. Sua segurança é importante para nós.", "isPhishing": false },
+      { "text": "Equipe Microsoft", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 39,
+    "type": "phishing",
+    "from": { "text": "Apple Support <noreply@apple.com>", "isPhishing": false },
+    "subject": { "text": "Sua Apple ID foi Bloqueada Por Motivos de Segurança Críticos - Ação Imediata Necessária", "isPhishing": false },
+    "date": "23/03/2024 16:50",
+    "body": [
+      { "text": "Prezado(a) cliente Apple,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que sua Apple ID foi **bloqueada preventivamente** devido a uma série de tentativas falhas de login ou atividades suspeitas detectadas em sua conta. Esta é uma medida de segurança padrão para proteger suas informações pessoais, pagamentos, iCloud e outros serviços Apple de acessos não autorizados. Entendemos o inconveniente, mas sua segurança é nossa prioridade máxima.", "isPhishing": false },
+      { "text": "Para restabelecer o acesso total à sua conta e garantir que suas informações permaneçam seguras, é fundamental que você acesse nosso portal de desbloqueio e siga as instruções para verificar sua identidade. O processo é simples e rápido.", "isPhishing": false },
+      { "text": "Clique no link abaixo para acessar o portal seguro de desbloqueio: https://id.apple-restaurar.com/desbloquear-conta", "isPhishing": true },
+      { "text": "Sua conta permanecerá bloqueada até que a verificação seja concluída. Agradecemos sua pronta atenção a este assunto e colaboração para mantermos a segurança do seu ecossistema Apple.", "isPhishing": false },
+      { "text": "Atenciosamente, Suporte Apple ID", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"apple-restaurar.com\" usa hifenização e um termo relacionado à recuperação para simular um domínio da Apple. O e-mail é longo, detalhado, usa linguagem formal, a ameaça de bloqueio e perda de acesso, e um tom de autoridade para criar urgência e medo."
+  },
+  {
+    "id": 40,
+    "type": "legit",
+    "from": { "text": "Apple <support@apple.com>", "isPhishing": false },
+    "subject": { "text": "Sua Apple ID foi usada para iniciar sessão em um novo dispositivo", "isPhishing": false },
+    "date": "23/03/2024 16:55",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Sua Apple ID joana.pereira@icloud.com foi usada para iniciar sessão em um novo dispositivo MacBook Pro localizado em Porto Alegre, RS em 23/03/2024 às 16:52 BRT.", "isPhishing": false },
+      { "text": "Se este acesso foi autorizado por você, nenhuma ação é necessária. Caso contrário, recomendamos fortemente que acesse imediatamente appleid.apple.com para revisar sua segurança, alterar sua senha e remover dispositivos desconhecidos. Para sua segurança, nunca compartilhe os detalhes da sua conta.", "isPhishing": false },
+      { "text": "Equipe Apple", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 41,
+    "type": "phishing",
+    "from": { "text": "YouTube Creator Support <noreply@youtube.com>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente: Violação de Direitos Autorais Detectada em Seu Canal YouTube - Ação Imediata!", "isPhishing": false },
+    "date": "21/03/2024 13:35",
+    "body": [
+      { "text": "Prezado(a) criador(a) de conteúdo Canal_GamesBR,", "isPhishing": false },
+      { "text": "Informamos que uma análise interna, complementada por denúncias de terceiros, identificou em seu canal do YouTube, Canal_GamesBR, a presença de conteúdo que **viola diretamente nossas políticas de direitos autorais**. O vídeo em questão, intitulado \"Melhores Momentos de Jogo X - Parte 3\", utiliza material protegido por direitos autorais sem a devida licença ou autorização.", "isPhishing": false },
+      { "text": "Para evitar a remoção forçada do vídeo e a aplicação de um \"strike\" formal em seu canal (que pode levar à suspensão de funcionalidades ou até mesmo ao encerramento do canal em caso de reincidência), é crucial que você acesse nosso portal de disputas e conteste a denúncia, caso acredite que houve um engano ou que possui os direitos de uso.", "isPhishing": false },
+      { "text": "Acesse o portal de disputas de direitos autorais para apresentar sua contestação: https://studio.youtube.copyright-claims.info/dispute", "isPhishing": true },
+      { "text": "Você tem um prazo estrito de **48 horas** para tomar esta ação. A não contestação resultará na aplicação automática do \"strike\" e na remoção do conteúdo. Agradecemos sua compreensão e colaboração para manter o YouTube uma plataforma justa e respeitosa com os direitos dos criadores.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Direitos Autorais e Políticas do YouTube", "isPhishing": false }
+    ],
+    "technique": "Link falso: O link \"youtube.copyright-claims.info\" usa \"youtube\" e \"copyright-claims\" com um TLD genérico. O e-mail é longo e detalhado, com um tom de autoridade e ameaça (\"strike\", \"encerramento do canal\"), criando urgência e medo sobre a perda do canal."
+  },
+  {
+    "id": 42,
+    "type": "legit",
+    "from": { "text": "YouTube <noreply@youtube.com>", "isPhishing": false },
+    "subject": { "text": "Seu vídeo foi removido do YouTube", "isPhishing": false },
+    "date": "22/03/2024 13:40",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que seu vídeo \"Gameplay Inovadora: Aventura no Espaço\" foi removido do YouTube devido a uma violação de nossas diretrizes da comunidade ou direitos autorais. Lamentamos qualquer inconveniente que isso possa causar.", "isPhishing": false },
+      { "text": "Para mais detalhes sobre o motivo da remoção e como você pode contestar essa decisão (se aplicável), acesse o YouTube Studio em studio.youtube.com. Lá, você encontrará informações específicas sobre a violação e as opções disponíveis.", "isPhishing": false },
+      { "text": "Agradecemos sua compreensão e colaboração.", "isPhishing": false },
+      { "text": "Equipe YouTube", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 43,
+    "type": "phishing",
+    "from": { "text": "X Corp. <noreply@x.com>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente: Suspensão Permanente de Conta X (Antigo Twitter) Agendada", "isPhishing": false },
+    "date": "21/03/2024 09:20",
+    "body": [
+      { "text": "Prezado(a) usuário(a) do X (anteriormente Twitter) Alex_NoticiasSP,", "isPhishing": false },
+      { "text": "Nossa equipe de moderação de conteúdo identificou atividades em sua conta Alex_NoticiasSP que violam gravemente nossas Regras e Políticas do X, incluindo comportamento abusivo, spam ou disseminação de informações falsas. Consequentemente, sua conta foi marcada para **suspensão permanente** de nossa plataforma.", "isPhishing": false },
+      { "text": "Entendemos que esta é uma decisão séria, e queremos oferecer uma última oportunidade de apelação. Se você acredita que houve um engano ou que sua conta foi comprometida, é imperativo que você nos contate imediatamente através do nosso portal de suporte de apelações.", "isPhishing": false },
+      { "text": "Para apresentar sua apelação e potencialmente reativar sua conta, acesse o link exclusivo abaixo: https://contato.x-suporte.co/apelacao", "isPhishing": true },
+      { "text": "Você tem apenas **12 horas** a partir do recebimento deste aviso para enviar sua contestação. Após este prazo, a suspensão se tornará irreversível, e você perderá o acesso definitivo à sua conta e a todo o seu conteúdo. Sua atenção é crucial.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Integridade da Plataforma X", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"x-suporte.co\" usa hifenização e um TLD genérico para simular um domínio do X. O e-mail é longo, detalhado e aplica forte pressão psicológica com a ameaça de \"suspensão permanente\" e um prazo curtíssimo para agir."
+  },
+  {
+    "id": 44,
+    "type": "legit",
+    "from": { "text": "X (Twitter) <notifications@x.com>", "isPhishing": false },
+    "subject": { "text": "Alerta de Segurança: Login de Novo Dispositivo na sua conta X", "isPhishing": false },
+    "date": "21/03/2024 09:25",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Notamos um login recente na sua conta X (Twitter) em Curitiba, PR (21/03/2024 09:22 BRT) usando um dispositivo Android.", "isPhishing": false },
+      { "text": "Se foi você quem fez login, pode desconsiderar esta mensagem. Se não foi você, por favor, acesse imediatamente as configurações de segurança da sua conta em x.com para alterar sua senha e revisar os dispositivos conectados. Proteger sua conta é nossa prioridade.", "isPhishing": false },
+      { "text": "Mantenha-se seguro(a) online!", "isPhishing": false },
+      { "text": "Equipe X", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 45,
+    "type": "phishing",
+    "from": { "text": "Discord <noreply@discordapp.com>", "isPhishing": false },
+    "subject": { "text": "Notificação Urgente: Sua Conta Discord Foi Sinalizada Por Atividade Suspeita", "isPhishing": false },
+    "date": "20/03/2024 18:10",
+    "body": [
+      { "text": "Prezado(a) usuário(a) do Discord GamerProPlayer,", "isPhishing": false },
+      { "text": "Recebemos diversas denúncias e nossos sistemas de segurança detectaram **atividade incomum e potencialmente maliciosa** em sua conta Discord. Isso pode incluir a disseminação de spam, phishing, ou comportamento que viola nossos Termos de Serviço da Comunidade. Como medida de proteção, sua conta foi sinalizada e está sob revisão.", "isPhishing": false },
+      { "text": "Para evitar que sua conta seja banida permanentemente e para que você possa continuar acessando seus servidores, amigos e mensagens, é fundamental que você verifique sua identidade e nos ajude a esclarecer a situação. Esta é uma etapa obrigatória para manter a integridade da nossa plataforma.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar o nosso portal de verificação de conta e siga as instruções: https://verificar-conta.discord-seguranca.org/validar", "isPhishing": true },
+      { "text": "Você tem um prazo de **6 horas** para completar este processo. A não verificação dentro deste período resultará no encerramento definitivo de sua conta. Sua colaboração é essencial para manter o Discord um ambiente seguro para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Confiança e Segurança Discord", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"discord-seguranca.org\" usa hifenização e um TLD comum para simular um domínio do Discord. O e-mail é longo e detalhado, com um tom de autoridade, a ameaça de \"banimento permanente\" e um prazo curtíssimo para criar urgência e medo."
+  },
+  {
+    "id": 46,
+    "type": "legit",
+    "from": { "text": "Discord <support@discordapp.com>", "isPhishing": false },
+    "subject": { "text": "Seu código de verificação Discord", "isPhishing": false },
+    "date": "20/03/2024 18:15",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Seu código de verificação para Discord é: **839201**. Este código é válido por 10 minutos.", "isPhishing": false },
+      { "text": "Nunca compartilhe este código com ninguém, nem mesmo com funcionários do Discord. Se você não solicitou este código, ignore este e-mail. Alguém pode ter tentado acessar sua conta.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Discord", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 47,
+    "type": "phishing",
+    "from": { "text": "Steam <noreply@steampowered.com>", "isPhishing": false },
+    "subject": { "text": "Alerta de Segurança Crítico: Sua Conta Steam Pode Ter Sido Comprometida!", "isPhishing": false },
+    "date": "19/03/2024 15:45",
+    "body": [
+      { "text": "Prezado(a) jogador(a),", "isPhishing": false },
+      { "text": "Nossos sistemas de segurança detectaram uma **atividade de login incomum** e uma subsequente tentativa de alteração de credenciais em sua conta Steam. Esta atividade sugere que sua conta pode ter sido acessada por terceiros não autorizados, colocando em risco seus jogos, inventário e informações de pagamento. Agimos imediatamente para proteger sua conta.", "isPhishing": false },
+      { "text": "Para reverter quaisquer alterações não autorizadas, restaurar o controle total de sua conta e garantir a segurança de seu valioso inventário de jogos, é imperativo que você inicie um processo de revisão de segurança imediatamente. Esta ação é rápida e essencial para evitar perdas ou banimentos.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar nosso Centro de Revisão de Contas e siga as instruções: https://central-steam.com/suporte/seguranca", "isPhishing": true },
+      { "text": "A não conclusão desta revisão dentro de 24 horas pode resultar na perda de acesso permanente à sua conta ou em medidas mais severas para proteger a comunidade Steam. Sua atenção é crucial neste momento.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Segurança de Contas Steam", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"central-steam.com\" tenta simular uma central de suporte da Steam, mas não é o domínio oficial da Valve/Steam. O e-mail é longo e detalhado, com um tom alarmista sobre a \"conta comprometida\" e a ameaça de \"perda de acesso permanente\" e \"banimentos\" para criar urgência e medo."
+  },
+  {
+    "id": 48,
+    "type": "legit",
+    "from": { "text": "Steam <support@steampowered.com>", "isPhishing": false },
+    "subject": { "text": "Confirmação de mudança de senha da sua conta Steam", "isPhishing": false },
+    "date": "19/03/2024 15:50",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Este e-mail é para confirmar que a senha da sua conta Steam foi alterada recentemente. Se você realizou esta alteração, pode desconsiderar esta mensagem.", "isPhishing": false },
+      { "text": "Se você não solicitou esta alteração, sua conta pode ter sido comprometida. Por favor, entre em contato imediatamente com o Suporte Steam através do nosso site oficial help.steampowered.com para proteger sua conta.", "isPhishing": false },
+      { "text": "Atenciosamente, Suporte Steam", "isPhishing": false }
+    ],
+    "technique": ""
+  },
+  {
+    "id": 49,
+    "type": "phishing",
+    "from": { "text": "Telegram <support@telegram.org>", "isPhishing": false },
+    "subject": { "text": "Aviso Urgente: Sua Conta Telegram Será Excluída por Inatividade - Ação Imediata Necessária", "isPhishing": false },
+    "date": "18/03/2024 12:30",
+    "body": [
+      { "text": "Prezado(a) usuário(a) do Telegram user_telegram_456,", "isPhishing": false },
+      { "text": "Gostaríamos de informar que, devido a uma **inatividade prolongada**, sua conta Telegram foi identificada para exclusão permanente de nossos servidores. Esta medida é necessária para a gestão de recursos e para garantir a segurança da nossa plataforma. Entendemos o valor do seu histórico de conversas e contatos e queremos oferecer uma última oportunidade para evitar a perda.", "isPhishing": false },
+      { "text": "Para cancelar a exclusão da sua conta e manter todo o seu histórico de mensagens e acesso aos seus contatos, é imprescindível que você acesse nosso portal de reativação e valide sua presença na plataforma. O processo é rápido e essencial para preservar sua conta.", "isPhishing": false },
+      { "text": "Por favor, clique no link abaixo para acessar o portal de reativação e siga as instruções: https://validar.telegram-status.tech/ativacao", "isPhishing": true },
+      { "text": "Você tem apenas **24 horas** a partir do recebimento deste aviso para tomar as medidas necessárias. Após este período, a exclusão será irreversível. Agradecemos sua compreensão e colaboração para manter o Telegram uma plataforma segura e funcional para todos.", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe de Suporte e Manutenção Telegram", "isPhishing": false }
+    ],
+    "technique": "Link falso: O domínio \"telegram-status.tech\" usa hifenização e um TLD comum para simular um domínio do Telegram. O e-mail é longo e detalhado, com um tom de autoridade e a ameaça de \"exclusão permanente\" e perda de histórico, criando urgência e medo."
+  },
+  {
+    "id": 50,
+    "type": "legit",
+    "from": { "text": "Telegram <noreply@telegram.org>", "isPhishing": false },
+    "subject": { "text": "Sua sessão do Telegram foi encerrada em [Dispositivo]", "isPhishing": false },
+    "date": "18/03/2024 12:35",
+    "body": [
+      { "text": "Olá,", "isPhishing": false },
+      { "text": "Este e-mail confirma que sua sessão do Telegram foi encerrada em um smartphone Android localizado em São Paulo, SP em 18/03/2024 às 12:33 BRT.", "isPhishing": false },
+      { "text": "Se você não realizou esta ação, sua conta pode ter sido acessada por outra pessoa. Para sua segurança, recomendamos que você encerre todas as outras sessões ativas do Telegram. Você pode fazer isso no aplicativo Telegram em **Configurações > Dispositivos** (ou Dispositivos conectados).", "isPhishing": false },
+      { "text": "Atenciosamente, Equipe Telegram", "isPhishing": false }
+    ],
+    "technique": ""
+  }
+]
