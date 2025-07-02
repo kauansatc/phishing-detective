@@ -608,4 +608,15 @@ header p {
     .score-breakdown {
         gap: 20px;
     }
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+.fake-url {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 } 

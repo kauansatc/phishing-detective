@@ -47,6 +47,17 @@ function updateStats() {
   document.getElementById('analyzed-count').textContent = gameState.analyzed;
 }
 
+// Função para formatar texto: **bold** e URLs azuis e sublinhadas
+function formatEmailText(input) {
+  // **text** to <strong>text</strong>
+  let formatted = input.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // URLs to <span class="fake-url">...</span> (no <a> tag)
+  formatted = formatted.replace(/(https?:\/\/[^\s]+)/g, '<span class="fake-url">$1</span>');
+  // URLs like (www.example.com)
+  formatted = formatted.replace(/\b(www\.[^\s<]+)/g, '<span class="fake-url">$1</span>');
+  return formatted;
+}
+
 function renderEmail() {
   const email = gameState.emails[gameState.current];
   if (!email) return;
@@ -58,7 +69,7 @@ function renderEmail() {
       <div class="email-date">${email.date}</div>
     </div>
     <div class="email-body">
-      ${email.body.map((p, i) => `<p data-part="body" data-index="${i}">${p.text}</p>`).join('')}
+      ${email.body.map((p, i) => `<p data-part="body" data-index="${i}">${formatEmailText(p.text)}</p>`).join('')}
     </div>
   `;
   // Adiciona listeners para marcar elementos
@@ -180,7 +191,7 @@ function renderReview() {
         <div><strong>De:</strong> ${ans.email.from.text} ${(ans.email.from.isPhishing ? '<span class=\'phishing-highlight\'>[phishing]</span>' : '')}</div>
         <div><strong>Assunto:</strong> ${ans.email.subject.text} ${(ans.email.subject.isPhishing ? '<span class=\'phishing-highlight\'>[phishing]</span>' : '')}</div>
         <div><strong>Data:</strong> ${ans.email.date}</div>
-        <div><strong>Corpo:</strong><br>${ans.email.body.map((p, i) => `<div class="${p.isPhishing ? 'phishing-highlight' : ''}">${p.text}${p.isPhishing ? ' [phishing]' : ''}</div>`).join('')}</div>
+        <div><strong>Corpo:</strong><br>${ans.email.body.map((p, i) => `<div class="${p.isPhishing ? 'phishing-highlight' : ''}">${formatEmailText(p.text)}${p.isPhishing ? ' [phishing]' : ''}</div>`).join('')}</div>
       </div>
     `;
     div.innerHTML = `
